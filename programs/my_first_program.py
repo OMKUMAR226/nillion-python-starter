@@ -1,6 +1,9 @@
 from nada_dsl import *
 
 def nada_main():
+    # Enable telemetry
+    enable_telemetry("unique_telemetry_identifier")
+
     # Define parties
     party1 = Party(name="Party1")
     party2 = Party(name="Party2")
